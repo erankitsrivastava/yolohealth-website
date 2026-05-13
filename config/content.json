@@ -1,0 +1,461 @@
+{
+  "site": {
+    "title": "YoloHealth - Healthcare Reimagined",
+    "description": "Run 60+ Health Tests Anywhere Without a Lab. Set up a fully automated health screening and teleconsultation unit in minutes.",
+    "favicon": "/favicon.ico"
+  },
+  "navbar": {
+    "logo": {
+      "src": "https://i.imgur.com/placeholder-logo.png",
+      "alt": "yolohealth",
+      "text": "yolohealth",
+      "tagline": "Healthcare Reimagined"
+    },
+    "links": [
+      { "label": "Healthcare", "href": "#healthcare" },
+      { "label": "Providers", "href": "#providers" },
+      { "label": "Technology", "href": "#technology" },
+      { "label": "Partners", "href": "#partners" },
+      { "label": "About", "href": "#about" },
+      { "label": "Blog", "href": "#blog" }
+    ],
+    "cta": {
+      "label": "Book a Demo",
+      "href": "#demo"
+    }
+  },
+  "hero": {
+    "badge": "NOW DEPLOYED IN 18 STATES",
+    "headline": "Run 60+ Health Tests Anywhere Without a Lab",
+    "subtext": "Set up a fully automated health screening and teleconsultation unit in minutes. Conduct 60+ diagnostic tests, generate instant reports, and connect patients to certified doctors all from a single intelligent kiosk.",
+    "primaryCta": {
+      "label": "Book a Free Demo",
+      "href": "#demo"
+    },
+    "secondaryCta": {
+      "label": "See How It Works",
+      "href": "#how-it-works"
+    },
+    "trustText": "Trusted by 500+ healthcare organizations across India",
+    "trustAvatars": [
+      { "initials": "AH", "color": "#4CAF50" },
+      { "initials": "FH", "color": "#2196F3" },
+      { "initials": "TM", "color": "#FF9800" },
+      { "initials": "MX", "color": "#9C27B0" }
+    ],
+    "kioskImage": {
+      "src": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80",
+      "alt": "YoloHealth HealthATM Kiosk"
+    },
+    "featureCards": [
+      {
+        "id": "smart-screening",
+        "title": "Smart Screening",
+        "metrics": [
+          { "label": "Oxygen Saturation", "value": "97 %", "color": "#4CAF50" },
+          { "label": "Blood Pressure", "value": "120/80 mmhg", "color": "#2196F3" },
+          { "label": "Heart Rate", "value": "120 bpm", "color": "#F44336" }
+        ]
+      },
+      {
+        "id": "instant-reports",
+        "title": "Instant Lab Reports",
+        "tests": [
+          { "name": "Blood Glucose", "status": "100%", "progress": 100 },
+          { "name": "Lipid Profile", "status": "Processing...", "progress": 60 },
+          { "name": "HbA1c", "status": "Processing...", "progress": 40 },
+          { "name": "Dengue", "status": "Processing...", "progress": 20 }
+        ]
+      },
+      {
+        "id": "teleconsultation",
+        "title": "Teleconsultation",
+        "doctorName": "DR. ARYAN MEHTA",
+        "specialty": "Cardiology",
+        "rating": "4.9",
+        "liveLabel": "LIVE",
+        "timer": "24:01",
+        "doctorImage": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&q=80"
+      },
+      {
+        "id": "ai-health",
+        "title": "AI Health Analysis",
+        "score": "88%",
+        "scoreLabel": "AI Preventive Health Score",
+        "indicators": [
+          { "label": "Low Risk", "color": "#4CAF50" },
+          { "label": "Preventive Mode", "color": "#2196F3" }
+        ]
+      },
+      {
+        "id": "unified-record",
+        "title": "Unified Health Record",
+        "items": ["Tests", "AI", "Meds", "Consult", "Report"]
+      }
+    ]
+  },
+  "partners": {
+    "label": "TRUSTED BY LEADING HEALTHCARE ORGANIZATIONS",
+    "logos": [
+      { "name": "Apollo", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apollo_Hospitals_Logo.svg/200px-Apollo_Hospitals_Logo.svg.png", "alt": "Apollo Hospitals" },
+      { "name": "Fortis", "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fortis_Healthcare_Logo.svg/200px-Fortis_Healthcare_Logo.svg.png", "alt": "Fortis Healthcare" },
+      { "name": "Thyrocare", "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Thyrocare_logo.png", "alt": "Thyrocare" },
+      { "name": "SRL", "src": "https://via.placeholder.com/120x40?text=SRL", "alt": "SRL Diagnostics" },
+      { "name": "Lybrate", "src": "https://via.placeholder.com/120x40?text=Lybrate", "alt": "Lybrate" },
+      { "name": "ESIC", "src": "https://via.placeholder.com/120x40?text=ESIC", "alt": "ESIC" }
+    ]
+  },
+  "flow": {
+    "sectionLabel": "PLATFORM",
+    "headline": "From test to care in one flow",
+    "subtext": "Every step is seamlessly connected—from diagnostics to consultation to follow-up care.",
+    "steps": [
+      {
+        "id": "patient-test",
+        "icon": "stethoscope",
+        "title": "Patient Test",
+        "description": "Patients walk up to the kiosk and run 60+ diagnostics tests autonomously in under 15 minutes—no lab technician needed.",
+        "color": "#E3F2FD"
+      },
+      {
+        "id": "ai-diagnostics",
+        "icon": "brain",
+        "title": "AI Diagnostics",
+        "description": "AI interprets results instantly, flags risks, generates structured reports, and recommends appropriate next steps.",
+        "color": "#F3E5F5"
+      },
+      {
+        "id": "confirmed-care",
+        "icon": "heart",
+        "title": "Confirmed Care",
+        "description": "Patients connect to certified doctors via teleconsultation for prescriptions, referrals, and follow-up care.",
+        "color": "#E8F5E9"
+      }
+    ]
+  },
+  "aiReports": {
+    "sectionLabel": "CONSUMER AI",
+    "headline": "Understand Health Reports with AI",
+    "subtext": "Our AI doesn't just generate reports—it explains them in plain language so every patient understands their health.",
+    "features": [
+      {
+        "icon": "shield-check",
+        "title": "AI-Guided Report",
+        "description": "Instant AI interpretation of every diagnostic test result with risk flags."
+      },
+      {
+        "icon": "user-check",
+        "title": "Talk to Your Report",
+        "description": "Ask questions about your results in natural language and get clear answers."
+      },
+      {
+        "icon": "clipboard",
+        "title": "Your Health Timeline",
+        "description": "Track your health journey over time with longitudinal health records."
+      },
+      {
+        "icon": "lightbulb",
+        "title": "Personalized Insights",
+        "description": "Receive tailored health recommendations based on your unique health data."
+      }
+    ],
+    "appLinks": {
+      "googlePlay": { "label": "Google Play", "href": "#" },
+      "appStore": { "label": "App Store", "href": "#" }
+    },
+    "phoneImage": {
+      "src": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&q=80",
+      "alt": "YoloHealth Mobile App"
+    }
+  },
+  "clinicSystem": {
+    "sectionLabel": "FOR CLINICS",
+    "headline": "Everything a Clinic Needs. In One System",
+    "subtext": "A complete diagnostic and clinical management platform built for modern healthcare providers.",
+    "features": [
+      "Immediate reports, fully interpreted",
+      "Teleconsultation-ready workflow",
+      "Integrated clinic management software",
+      "Custom diagnostic reports"
+    ],
+    "dashboardImage": {
+      "src": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=700&q=80",
+      "alt": "YoloHealth Clinic Dashboard"
+    }
+  },
+  "setup": {
+    "sectionLabel": "HARDWARE",
+    "headline": "Choose the Right Setup for Your Facility",
+    "subtext": "Multiple form factors to fit every healthcare setting—from large hospitals to mobile medical units.",
+    "options": [
+      {
+        "id": "visit-mount",
+        "title": "Visit Mount Mode",
+        "description": "Full-scale health screening unit for hospitals, large clinics, and corporate campuses with 60+ tests.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&q=80",
+          "alt": "Visit Mount Mode"
+        },
+        "cta": { "label": "Learn More", "href": "#" }
+      },
+      {
+        "id": "compact-map",
+        "title": "CompactMap",
+        "description": "Compact tabletop unit for pharmacies, smaller clinics, and community health centres.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400&q=80",
+          "alt": "CompactMap"
+        },
+        "cta": { "label": "Learn More", "href": "#" }
+      },
+      {
+        "id": "mobile-unit",
+        "title": "Mobile Medical Unit",
+        "description": "Vehicle-mounted diagnostics lab for rural outreach programs and government health missions.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=400&q=80",
+          "alt": "Mobile Medical Unit"
+        },
+        "cta": { "label": "Learn More", "href": "#" }
+      }
+    ]
+  },
+  "fitsBest": {
+    "sectionLabel": "USE CASES",
+    "headline": "Where HealthATM Fits Best",
+    "subtext": "Deployed across diverse healthcare environments throughout India.",
+    "useCases": [
+      {
+        "label": "Hospitals",
+        "description": "High-volume screening for hospitals",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+          "alt": "Hospital deployment"
+        }
+      },
+      {
+        "label": "Pharmacies",
+        "description": "Quick health checks at point of care",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400&q=80",
+          "alt": "Pharmacy deployment"
+        }
+      },
+      {
+        "label": "Corporates",
+        "description": "Employee wellness programs at scale",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80",
+          "alt": "Corporate deployment"
+        }
+      },
+      {
+        "label": "Rural Clinics",
+        "description": "Bringing diagnostics to underserved communities",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=400&q=80",
+          "alt": "Rural clinic deployment"
+        }
+      }
+    ],
+    "cta": { "label": "See All Use Cases", "href": "#" }
+  },
+  "impact": {
+    "sectionLabel": "REAL IMPACT",
+    "headline": "Real Impact At Scale",
+    "subtext": "Numbers that reflect our commitment to accessible healthcare.",
+    "stats": [
+      {
+        "value": "720+",
+        "label": "HealthATMs Deployed",
+        "sublabel": "Across India",
+        "highlighted": false
+      },
+      {
+        "value": "2.3L+",
+        "label": "Patients Screened",
+        "sublabel": "Monthly",
+        "highlighted": false
+      },
+      {
+        "value": "4.2M+",
+        "label": "Tests Conducted",
+        "sublabel": "Total",
+        "highlighted": true
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "TESTIMONIALS",
+    "headline": "Our Users Talk About Us",
+    "subtext": "Hear from healthcare providers and patients who use YoloHealth every day.",
+    "items": [
+      {
+        "name": "Naman Patel",
+        "role": "Medical Director",
+        "organization": "Apollo Hospital, Ahmedabad",
+        "rating": 5,
+        "text": "YoloHealth has transformed how we do preliminary diagnostics. The AI-powered reports are incredibly accurate and save our doctors significant time.",
+        "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=80&q=80"
+      },
+      {
+        "name": "Priya Sharma",
+        "role": "CEO",
+        "organization": "HealthFirst Clinics",
+        "rating": 5,
+        "text": "The teleconsultation integration is seamless. Patients get complete care in one visit—tests, AI analysis, and doctor consultation.",
+        "avatar": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=80&q=80"
+      },
+      {
+        "name": "Dr. Rahul Verma",
+        "role": "General Physician",
+        "organization": "Private Practice, Mumbai",
+        "rating": 5,
+        "text": "The quality of diagnostic reports is outstanding. My patients love how they can understand their health data through the AI explanations.",
+        "avatar": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=80&q=80"
+      },
+      {
+        "name": "Meera Iyer",
+        "role": "Pharmacy Owner",
+        "organization": "MedPlus, Bangalore",
+        "rating": 4,
+        "text": "The CompactMap unit fits perfectly in our pharmacy. Customers appreciate the convenience of getting health checks done while picking up their medications.",
+        "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=80&q=80"
+      }
+    ]
+  },
+  "insights": {
+    "sectionLabel": "BLOG",
+    "headline": "Health and AI Insights",
+    "subtext": "Stay informed with the latest in healthcare technology and preventive care.",
+    "articles": [
+      {
+        "category": "AI in Healthcare",
+        "title": "How AI is Revolutionizing Preventive Healthcare in India",
+        "excerpt": "Early health screening is proving to be critical in preventing major diseases. Discover how AI-powered kiosks are making it accessible.",
+        "date": "May 10, 2026",
+        "readTime": "5 min read",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=80",
+          "alt": "AI Healthcare"
+        },
+        "href": "#"
+      },
+      {
+        "category": "Diagnostics",
+        "title": "How AI-Driven Diagnostics Empower Faster Decision-Making",
+        "excerpt": "Instant interpretation of lab results is changing how doctors make decisions, especially in time-critical situations.",
+        "date": "May 5, 2026",
+        "readTime": "4 min read",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=500&q=80",
+          "alt": "AI Diagnostics"
+        },
+        "href": "#"
+      },
+      {
+        "category": "Rural Health",
+        "title": "Why Should Government Health Screenings Become More Accessible?",
+        "excerpt": "Millions in rural India lack access to basic diagnostics. Here's how mobile health units are bridging the gap.",
+        "date": "Apr 28, 2026",
+        "readTime": "6 min read",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&q=80",
+          "alt": "Rural Health"
+        },
+        "href": "#"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "headline": "Frequently Asked Questions",
+    "subtext": "Everything you need to know about YoloHealth HealthATM.",
+    "ctaText": "Still have questions?",
+    "cta": { "label": "Contact Us", "href": "#contact" },
+    "items": [
+      {
+        "question": "What tests can the HealthATM perform?",
+        "answer": "The HealthATM can conduct 60+ diagnostic tests including blood glucose, lipid profile, HbA1c, CBC, thyroid function, urine analysis, vital signs (BP, SpO2, heart rate, temperature), BMI, and much more — all without a lab technician."
+      },
+      {
+        "question": "How long does a complete health screening take?",
+        "answer": "A full screening session typically takes 10-15 minutes. The AI generates an interpreted report instantly, and teleconsultation with a doctor can be completed within the same visit."
+      },
+      {
+        "question": "Is the HealthATM data secure?",
+        "answer": "Yes, all patient data is encrypted end-to-end and stored securely in compliance with India's Digital Health Mission standards and HIPAA guidelines."
+      },
+      {
+        "question": "Can we integrate it with our existing hospital management system?",
+        "answer": "Absolutely. YoloHealth offers API integration with major HIS/EMR systems including Practo, eVital, and custom integrations via our developer platform."
+      },
+      {
+        "question": "What is the setup and maintenance process?",
+        "answer": "Setup takes less than 2 hours. Our team handles installation, training, and provides 24/7 remote support. Consumables are restocked as part of the service agreement."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headline": "Bring Smart Diagnostics to Your Facility",
+    "subtext": "Join 500+ healthcare providers already using YoloHealth.",
+    "cta": {
+      "label": "Get a Demo",
+      "href": "#demo"
+    },
+    "image": {
+      "src": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&q=80",
+      "alt": "YoloHealth Kiosk"
+    }
+  },
+  "footer": {
+    "logo": {
+      "text": "yolohealth",
+      "tagline": "Healthcare Reimagined"
+    },
+    "description": "Transforming healthcare delivery across India with AI-powered diagnostics and teleconsultation.",
+    "socialLinks": [
+      { "platform": "twitter", "href": "#" },
+      { "platform": "linkedin", "href": "#" },
+      { "platform": "facebook", "href": "#" }
+    ],
+    "columns": [
+      {
+        "heading": "Products",
+        "links": [
+          { "label": "HealthATM", "href": "#" },
+          { "label": "Mobile Unit", "href": "#" },
+          { "label": "CompactMap", "href": "#" },
+          { "label": "AI Platform", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Solutions",
+        "links": [
+          { "label": "Hospitals", "href": "#" },
+          { "label": "Pharmacies", "href": "#" },
+          { "label": "Corporates", "href": "#" },
+          { "label": "Government", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Company",
+        "links": [
+          { "label": "About Us", "href": "#" },
+          { "label": "Blog", "href": "#" },
+          { "label": "Careers", "href": "#" },
+          { "label": "Press", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" },
+          { "label": "Cookie Policy", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 YoloHealth Technologies Pvt. Ltd. All rights reserved."
+  }
+}
