@@ -66,10 +66,18 @@ export default function Footer({ data }: { data: ContentConfig["footer"] }) {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-blue-200/50">{data.copyright}</p>
-          <div className="flex items-center gap-1 text-xs text-blue-200/50">
+          <div className="flex items-center gap-2 text-xs text-blue-200/50">
             <span>Made with</span>
             <span className="text-red-400">♥</span>
-            <span>in India</span>
+            <span>in India by</span>
+            <a
+              href="https://haxcode.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#38bdf8] hover:text-white transition-colors font-medium"
+            >
+              haxcode.com
+            </a>
           </div>
         </div>
       </div>
