@@ -5,6 +5,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+git clone git@github.com:erankitsrivastava/yolohealth-website.git
+cd yolohealth-website
 
 # To install
 npm install
