@@ -140,7 +140,7 @@ export default function HeroSection({ data }: { data: ContentConfig["hero"] }) {
   };
 
   return (
-    <section className="relative min-h-screen pt-16 overflow-hidden"
+    <section id="home" className="relative min-h-screen pt-16 overflow-hidden"
       style={{ background: "linear-gradient(160deg, #c8e8f8 0%, #ddf0fb 40%, #eef7fd 70%, #f5fbff 100%)" }}>
       {/* Decorative circles */}
       <div className="absolute top-20 left-10 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl pointer-events-none" />

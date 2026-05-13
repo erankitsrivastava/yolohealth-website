@@ -3,7 +3,7 @@ import type { ContentConfig } from "@/types/content";
 
 export default function ClinicSystemSection({ data }: { data: ContentConfig["clinicSystem"] }) {
   return (
-    <section className="py-20" style={{ background: "linear-gradient(180deg, #f0f8ff 0%, #e8f4fd 100%)" }}>
+    <section id="healthcare" className="py-20" style={{ background: "linear-gradient(180deg, #f0f8ff 0%, #e8f4fd 100%)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <span className="text-xs font-bold text-[#0ea5e9] tracking-widest uppercase">{data.sectionLabel}</span>

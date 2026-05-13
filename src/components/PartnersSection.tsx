@@ -3,7 +3,7 @@ import type { ContentConfig } from "@/types/content";
 
 export default function PartnersSection({ data }: { data: ContentConfig["partners"] }) {
   return (
-    <section className="py-10 bg-white border-b border-gray-100">
+    <section id="partners" className="py-10 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-center text-xs font-semibold text-gray-400 tracking-widest uppercase mb-8">
           {data.label}

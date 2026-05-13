@@ -27,7 +27,7 @@ const featureIcons: Record<string, ReactElement> = {
 
 export default function AIReportsSection({ data }: { data: ContentConfig["aiReports"] }) {
   return (
-    <section className="py-20 bg-white">
+    <section id="technology" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Phone mockup */}

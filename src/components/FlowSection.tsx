@@ -21,7 +21,7 @@ const icons: Record<string, ReactElement> = {
 
 export default function FlowSection({ data }: { data: ContentConfig["flow"] }) {
   return (
-    <section className="py-20" style={{ background: "linear-gradient(180deg, #f0f8ff 0%, #ffffff 100%)" }}>
+    <section id="how-it-works" className="py-20" style={{ background: "linear-gradient(180deg, #f0f8ff 0%, #ffffff 100%)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <span className="text-xs font-bold text-[#0ea5e9] tracking-widest uppercase">{data.sectionLabel}</span>

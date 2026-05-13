@@ -3,7 +3,7 @@ import type { ContentConfig } from "@/types/content";
 
 export default function InsightsSection({ data }: { data: ContentConfig["insights"] }) {
   return (
-    <section className="py-20 bg-white">
+    <section id="blog" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between mb-12 flex-wrap gap-4">
           <div>

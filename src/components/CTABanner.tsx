@@ -4,7 +4,7 @@ import type { ContentConfig } from "@/types/content";
 export default function CTABanner({ data }: { data: ContentConfig["ctaBanner"] }) {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div id="demo" className="max-w-7xl mx-auto">
         <div className="relative bg-gradient-to-r from-[#1565c0] to-[#0ea5e9] rounded-3xl overflow-hidden">
           {/* Background decoration */}
           <div className="absolute top-0 right-0 w-1/3 h-full">

@@ -6,7 +6,7 @@ export default function FAQSection({ data }: { data: ContentConfig["faq"] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-20" style={{ background: "linear-gradient(180deg, #f0f8ff 0%, #e8f4fd 100%)" }}>
+    <section id="contact" className="py-20" style={{ background: "linear-gradient(180deg, #f0f8ff 0%, #e8f4fd 100%)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left */}
